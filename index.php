@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Game</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 	<link rel="stylesheet" href="assets/css/reset.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -12,6 +13,12 @@
 <div class="container">
 <form class="row" name="f">
 	<header id="header"><h1>Dice Game!</h1></header>
+
+	<div id="loser">
+		<p>You ran out money!</p>
+		<a href="http://localhost/tgames/dados/"><i class="fa fa-repeat"></i>Try again</a>
+	</div>
+
 	<div id="infoGame">
 		<ul>
 			<li>

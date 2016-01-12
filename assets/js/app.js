@@ -29,7 +29,8 @@ function throwdice() {
 	var bank = Number(document.f.bank.value);
 
 	if (bank<10){
-		alert("You ran out money! Add some more and try again");
+		// alert("You ran out money! Add some more and try again");
+		$('#loser').slideDown('100');
 		return;
 	};
 	bank = bank - 10;

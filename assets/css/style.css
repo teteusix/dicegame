@@ -85,7 +85,8 @@ body {
     color: #FFFFFF;
     font-weight: 300;
     height: 58px;
-    text-align: center; }
+    text-align: center;
+    cursor: pointer; }
 
 #infoCash {
   background: #47D2E9;
@@ -118,5 +119,37 @@ body {
     font-size: 20px;
     padding: 2px 10px;
     color: #47D2E9; }
+
+#loser {
+  display: none;
+  position: absolute;
+  top: 170px;
+  left: 0;
+  width: 100%;
+  border: 2px solid #e74c3c;
+  background: #fff;
+  height: 300px;
+  z-index: 10;
+  text-align: center; }
+  #loser p {
+    font-size: 36px;
+    font-weight: 300;
+    color: #c0392b;
+    margin: 50px 0; }
+  #loser a {
+    background: #53DF83;
+    color: #fff;
+    padding: 10px 50px;
+    font-size: 22px;
+    font-weight: 300;
+    display: block;
+    width: 300px;
+    margin: 50px auto;
+    text-decoration: none; }
+  #loser i {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 40px;
+    text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

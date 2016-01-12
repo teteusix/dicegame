@@ -106,8 +106,45 @@ clear: both;
 		font-weight: 300;
 		height: 58px;
 		text-align:center;
+		cursor:pointer;
 	}
 }
 #infoCash {
 	@include colun;
+}
+
+#loser {
+	display:none;
+	position: absolute;
+	top: 170px;
+	left: 0;
+	width: 100%;
+	border: 2px solid #e74c3c;
+	background: #fff;
+	height: 300px;
+	z-index: 10;
+	text-align: center;
+	p {
+		font-size: 36px;
+		font-weight: 300;
+		color: #c0392b;
+		margin: 50px 0;
+	}
+	a {
+		background: $main-green;
+		color: #fff;
+		padding: 10px 50px;
+		font-size: 22px;
+		font-weight: 300;
+		display: block;
+		width: 300px;
+		margin: 50px auto;
+		text-decoration:none;
+	}
+	i {
+		display: block;
+		margin-bottom: 10px;
+		font-size: 40px;
+		text-decoration:none;
+	}
 }
