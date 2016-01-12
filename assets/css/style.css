@@ -1,0 +1,121 @@
+body {
+  background: #EEEEEE;
+  font-family: 'Open Sans', Arial; }
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px; }
+
+.row:before {
+  display: table;
+  content: " "; }
+
+.row:after {
+  clear: both; }
+
+.container {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+#header {
+  padding: 50px 0; }
+  #header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 64px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-shadow: 2px 1px 1px rgba(255, 255, 255, 0.9); }
+
+#infoGame {
+  background: #47D2E9;
+  width: 292.5px;
+  height: 300px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 30px 30px; }
+  #infoGame ul {
+    margin: 0;
+    padding: 0; }
+  #infoGame ul li {
+    display: block;
+    height: 130px; }
+  #infoGame h2 {
+    margin: 0;
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: 10px; }
+  #infoGame input {
+    position: relative;
+    margin-top: 5px;
+    border: 1px solid #FFFFFF;
+    width: 100%;
+    display: block;
+    height: 40px;
+    background: #FFFFFF;
+    font-size: 20px;
+    padding: 2px 10px;
+    color: #47D2E9; }
+
+#game {
+  background: #FFFFFF;
+  width: 585px;
+  height: 300px;
+  display: inline-block;
+  vertical-align: top; }
+  #game canvas {
+    height: 242px;
+    width: 585px;
+    margin: 0;
+    position: relative;
+    display: block; }
+  #game button {
+    position: relative;
+    border: medium none;
+    width: 100%;
+    display: block;
+    background: #53DF83;
+    font-size: 32px;
+    padding: 6px 10px;
+    color: #FFFFFF;
+    font-weight: 300;
+    height: 58px; }
+
+#infoCash {
+  background: #47D2E9;
+  width: 292.5px;
+  height: 300px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 30px 30px; }
+  #infoCash ul {
+    margin: 0;
+    padding: 0; }
+  #infoCash ul li {
+    display: block;
+    height: 130px; }
+  #infoCash h2 {
+    margin: 0;
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: 10px; }
+  #infoCash input {
+    position: relative;
+    margin-top: 5px;
+    border: 1px solid #FFFFFF;
+    width: 100%;
+    display: block;
+    height: 40px;
+    background: #FFFFFF;
+    font-size: 20px;
+    padding: 2px 10px;
+    color: #47D2E9; }
+
+/*# sourceMappingURL=style.css.map */
