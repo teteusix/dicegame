@@ -33,7 +33,7 @@
 	</div><!--
 	 --><div id="game">
 			<canvas id="canvas" width="585" height="242">Your browser doesn't support the HTML5 element canvas</canvas>
-			<span onClick="throwdice();">Throw!</span>
+			<span onClick="throwdice();">Throw! <i class="fa fa-cubes"></i></span>
 	 </div><!--
 	 --><div id="infoCash">
 		<ul>
