@@ -2,6 +2,8 @@
 
 ## Sobre
 
+[Veja funcionando!](http://teteusix.com/projects/dicegame/)
+
 O jogo foi desenvolvido como exercicio do livro **O Guia Essencial do HTML5 - Usando jogos para aprender HTML5 e Javascript**.
 
 ## Rules
