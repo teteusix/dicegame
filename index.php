@@ -10,7 +10,7 @@
 <body>
 
 <div class="container">
-<div class="row">
+<form class="row" name="f">
 	<header id="header"><h1>Dice Game!</h1></header>
 	<div id="infoGame">
 		<ul>
@@ -40,8 +40,9 @@
 			</li>
 		</ul>
 	</div>
-</div>
+</form>
 </div>
 <script src="assets/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+<script src="assets/js/app.js" type="text/javascript"></script>
 </body>
 </html>
