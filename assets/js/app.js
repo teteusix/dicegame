@@ -117,3 +117,82 @@ function drawface (n) {
 		break;
 	}
 }
+
+function draw1 () {
+	var dotx,
+			doty;
+
+	ctx.beginPath();
+		dotx = dx + .5*dicewidth;
+		doty = dy + .5*diceheight;
+		ctx.arc(dotx,doty,dotrad,0,Math.PI*2,true);
+	ctx.closePath();
+
+	ctx.fill();
+}
+
+function draw2 () {
+	var dotx,
+			doty;
+
+	ctx.beginPath();
+		dotx = dx + 3*dotrad;
+		doty = dy + 3*dotrad;
+		ctx.arc(dotx,doty,dotrad,0,Math.PI*2,true);
+
+		dotx = dx + dicewidth - 3*dotrad;
+		doty = dy + diceheight - 3*dotrad;
+		ctx.arc(dotx,doty,dotrad,0,Math.PI*2,true);
+	ctx.closePath();
+
+	ctx.fill();
+}
+
+
+
+function draw4 () {
+	var dotx,
+			doty;
+
+	ctx.beginPath();
+		dotx = dx + 3*dotrad;
+		doty = dy + 3*dotrad;
+		ctx.arc(dotx,doty,dotrad,0,Math.PI*2,true);
+
+		dotx = dx + dicewidth - 3*dotrad;
+		doty = dy + diceheight - 3*dotrad;
+		ctx.arc(dotx,doty,dotrad,0,Math.PI*2,true);
+	ctx.closePath();
+
+	ctx.fill();
+
+	ctx.beginPath();
+		dotx = dx + 3*dotrad;
+		doty = dy + diceheight - 3*dotrad;
+		ctx.arc(dotx,doty,dotrad,0,Math.PI*2,true);
+
+		dotx = dx + dicewidth - 3*dotrad;
+		doty = dy + 3*dotrad;
+		ctx.arc(dotx,doty,dotrad,0,Math.PI*2,true);
+	ctx.closePath();
+
+	ctx.fill();
+}
+
+
+function draw2mid () {
+	var dotx,
+			doty;
+
+	ctx.beginPath();
+		dotx = dx + 3*dotrad;
+		doty = dy + .5*diceheight;
+		ctx.arc(dotx,doty,dotrad,0,Math.PI*2,true);
+
+		dotx = dx + dicewidth - 3*dotrad;
+		doty = dy + .5*diceheight;
+		ctx.arc(dotx,doty,dotrad,0,Math.PI*2,true);
+	ctx.closePath();
+
+	ctx.fill();
+}
