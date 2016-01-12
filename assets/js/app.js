@@ -1,16 +1,18 @@
-var cwidth = 400,
-		cheight = 300,
+var cwidth = 585,
+		cheight = 242,
 		dicex = 50,
 		dicey = 50,
 		dicewidth = 100,
 		diceheight = 100,
-		dotrad = 6,
+		dotrad = 5,
 		ctx,
 		dx,
 		dy;
 var firstturn = true;
 var point;
 
+
+// Create throw of dice and insert messages in inputs
 function throwdice() {
 	var sum,
 			ch = 1+Math.floor(Math.random()*6);
@@ -76,4 +78,42 @@ function throwdice() {
 				break;
 		}
 	};
+}
+
+// Design dice and your points
+function drawface (n) {
+	ctx = document.getElementById('canvas').getContext('2d');
+	ctx.lineWidth = 5;
+	ctx.clearRect(dx,dy,dicewidth,diceheight);
+	ctx.strokeRect(dx,dy,dicewidth,diceheight);
+	ctx.fillstyle = "#3f3f3f";
+
+	switch(n) {
+		case 1:
+		draw1();
+		break;
+
+		case 2:
+		draw2();
+		break;
+
+		case 3:
+		draw2();
+		draw1();
+		break;
+
+		case 4:
+		draw4();
+		break;
+
+		case 5:
+		draw4();
+		draw1();
+		break;
+
+		case 6:
+		draw4();
+		draw2mid();
+		break;
+	}
 }
