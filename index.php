@@ -16,7 +16,7 @@
 
 	<div id="loser">
 		<p>You ran out money!</p>
-		<a href="http://localhost/tgames/dados/"><i class="fa fa-repeat"></i>Try again</a>
+		<a href="index.php"><i class="fa fa-repeat"></i>Try again</a>
 	</div>
 
 	<div id="infoGame">
