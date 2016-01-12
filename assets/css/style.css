@@ -74,7 +74,7 @@ body {
     margin: 0;
     position: relative;
     display: block; }
-  #game button {
+  #game span {
     position: relative;
     border: medium none;
     width: 100%;
@@ -84,7 +84,8 @@ body {
     padding: 6px 10px;
     color: #FFFFFF;
     font-weight: 300;
-    height: 58px; }
+    height: 58px;
+    text-align: center; }
 
 #infoCash {
   background: #47D2E9;

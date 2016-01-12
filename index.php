@@ -26,7 +26,7 @@
 	</div><!--
 	 --><div id="game">
 			<canvas id="canvas" width="585" height="242">Your browser doesn't support the HTML5 element canvas</canvas>
-			<button onClick="throwdice();">Throw!</button>
+			<span onClick="throwdice();">Throw!</span>
 	 </div><!--
 	 --><div id="infoCash">
 		<ul>

@@ -1,10 +1,10 @@
 var cwidth = 585,
 		cheight = 242,
-		dicex = 50,
-		dicey = 50,
-		dicewidth = 100,
-		diceheight = 100,
-		dotrad = 5,
+		dicex = 60,
+		dicey = 22,
+		dicewidth = 200,
+		diceheight = 200,
+		dotrad = 10,
 		ctx,
 		dx,
 		dy;
@@ -20,7 +20,7 @@ function throwdice() {
 	dx = dicex;
 	dy = dicey;
 	drawface(ch);
-	dx = dicex + 150;
+	dx = dicex + 260;
 	ch = 1+Math.floor(Math.random()*6);
 	sum += ch;
 	drawface(ch);
@@ -86,7 +86,7 @@ function drawface (n) {
 	ctx.lineWidth = 5;
 	ctx.clearRect(dx,dy,dicewidth,diceheight);
 	ctx.strokeRect(dx,dy,dicewidth,diceheight);
-	ctx.fillstyle = "#3f3f3f";
+	ctx.fillStyle = "#53DF83";
 
 	switch(n) {
 		case 1:
