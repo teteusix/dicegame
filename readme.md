@@ -6,7 +6,7 @@
 
 O jogo foi desenvolvido como exercicio do livro **O Guia Essencial do HTML5 - Usando jogos para aprender HTML5 e Javascript**.
 
-## Rules
+## Regras
 
 O jogador lança um par de dados;
 
