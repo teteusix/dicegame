@@ -29,3 +29,4 @@ De qualquer modo o jogo continua com as regras do lançamento sequencial.
 - Verter o *readme.md* para inglês.
 - Quando um jogador perder, ao invés de só descontar dinheiro, será o fim do jogo.
 - Arrumar Bug's
+- Melhorar o código
